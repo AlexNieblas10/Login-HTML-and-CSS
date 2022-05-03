@@ -1,0 +1,126 @@
+*{
+    font-family:"Radio Canada";
+}
+
+body{
+    margin: 0;
+    background: linear-gradient(to top, red, blue);
+}
+
+
+.flex-container{
+    background-color: rgb(255, 255, 255);
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius:20px;
+    
+}
+.first-text{
+    text-align: center;
+    padding-top: 4rem;;
+}
+
+.second-text{
+    text-align: center;
+}
+
+.text{
+    margin-bottom:0;
+}
+
+ .login{
+    display: flex;
+    flex-direction:column;
+    width: 50%;
+    margin: auto;
+}
+
+.login input{
+    width: 100%;
+    height: 25px;
+    outline: none;
+    border-radius:3px;
+}
+
+.recuerdame{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+}
+.recuerdame input{
+    cursor: pointer;
+}
+
+.recuerdame h3{
+   margin: 1.2rem 0;
+   text-align: left;
+   width: 50%;
+}
+
+.recuerdame a{
+    color: rgb(83, 153, 250);
+    text-decoration: none;
+    text-align:right;
+    width:50%;
+    margin:1.2rem 0
+
+    
+}
+
+.log-in{
+    background-color:black;
+    color:white;
+    width: 50%;
+    cursor:pointer;
+    padding: 1rem;
+    font-size:15px
+}
+
+.login-button{
+    display: flex;
+    justify-content: center;
+}
+
+.another{
+    text-align: center;
+}
+
+.redes-sociales{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.7rem;
+    
+}
+
+.google{
+    background-color:#EA4335;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.facebook{
+    background-color:#3b5998;
+    margin-top:1rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.twitter{
+    background-color:#00acee;
+    text-decoration: none;
+    margin-top: 1rem;
+    color: white;
+    margin-bottom:4rem ;
+    border-radius: 5px;
+    padding: 5px;
+}
